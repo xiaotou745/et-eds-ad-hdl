@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical"
+	android:paddingLeft="20dip"
+	android:paddingRight="20dip"
+    >
+    
+    <ListView 
+        android:id="@+id/list_map"
+        android:layout_width="match_parent"
+        android:layout_height = "wrap_content"
+        android:scrollbars="none"
+        android:divider="@color/line_color"
+        android:dividerHeight="2dip"
+        ></ListView>
+    <View 
+         android:layout_width="match_parent"
+        android:layout_height = "2dip"
+        android:background="@color/line_color"
+        />
+    <CheckBox
+        android:id="@+id/check_map_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住此次选择"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        ></CheckBox>
+</LinearLayout>
